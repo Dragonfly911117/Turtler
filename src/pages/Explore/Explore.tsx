@@ -7,7 +7,7 @@ import { getPosts, getNewPosts } from "../../services/postServices";
 
 export const Explore = () => {
   const { id } = useAppSelector((store) => store?.auth);
-  const adminId = "moV2IBntKlZzo0D58QtockpHGs93";
+  const adminId = "hj4Etik71We9o2mdT4EKDl0TFq72";
 
   const { postsLoading, posts, latestDoc, newPostsLoading } = useAppSelector(
     (store) => store?.posts
